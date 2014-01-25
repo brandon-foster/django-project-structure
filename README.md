@@ -5,6 +5,7 @@ What a django project structure might look like when building a new django app. 
 
 __requirements.txt__: top level file required for heroku to install dependencies
    contains a single line to install from requirements/prod.txt
+   
    `-r requirements/prod.txt`
    
 __djangolicious/apps/__
