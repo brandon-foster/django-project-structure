@@ -47,5 +47,3 @@ What a django project structure might look like when building a new django app. 
 │   └── test.txt
 ├── requirements.txt
 └── TREE.txt
-
-9 directories, 34 files
