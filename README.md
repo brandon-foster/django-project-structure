@@ -6,9 +6,9 @@ What a django project structure might look like when building a new django app. 
 .
 
 ├── djangolicious
-|   |
+
 │   ├── apps
-|   |   |
+
 │   │   ├── blog
 
 │   │   │   ├── __init__.py
