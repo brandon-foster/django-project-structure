@@ -46,6 +46,7 @@ What a django project structure might look like when building a new django app. 
 │   ├── libs
 
 │   │   ├── display
+
 │   │   │   ├── __init__.py
 
 │   │   │   ├── models.py
@@ -66,7 +67,17 @@ What a django project structure might look like when building a new django app. 
 
 │   │       └── views.py
 
-│   ├── settings.py
+│   ├── settings
+
+│   │   ├── common.py
+
+│   │   ├── dev.py
+
+│   │   ├── __init__.py
+
+│   │   ├── prod.py
+
+│   │   └── test.py
 
 │   ├── urls.py
 
@@ -87,8 +98,6 @@ What a django project structure might look like when building a new django app. 
 │   └── test.txt
 
 ├── requirements.txt
-
-└── tree.txt
 
 
 __requirements.txt__: top level file required for heroku to install dependencies
