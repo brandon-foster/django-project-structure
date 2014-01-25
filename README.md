@@ -11,7 +11,7 @@ What a django project structure might look like when building a new django app. 
 
 │   │   ├── blog
 
-│   │   │   ├── __init__.py
+│   │   │   ├── \_\_init\_\_.py
 
 │   │   │   ├── models.py
 
@@ -19,11 +19,11 @@ What a django project structure might look like when building a new django app. 
 
 │   │   │   └── views.py
 
-│   │   ├── __init__.py
+│   │   ├── \_\_init\_\_.py
 
 │   │   ├── news
 
-│   │   │   ├── __init__.py
+│   │   │   ├── \_\_init\_\_.py
 
 │   │   │   ├── models.py
 
@@ -33,7 +33,7 @@ What a django project structure might look like when building a new django app. 
 
 │   │   └── reader
 
-│   │       ├── __init__.py
+│   │       ├── \_\_init\_\_.py
 
 │   │       ├── models.py
 
@@ -41,13 +41,13 @@ What a django project structure might look like when building a new django app. 
 
 │   │       └── views.py
 
-│   ├── __init__.py
+│   ├── \_\_init\_\_.py
 
 │   ├── libs
 
 │   │   ├── display
 
-│   │   │   ├── __init__.py
+│   │   │   ├── \_\_init\_\_.py
 
 │   │   │   ├── models.py
 
@@ -55,11 +55,11 @@ What a django project structure might look like when building a new django app. 
 
 │   │   │   └── views.py
 
-│   │   ├── __init__.py
+│   │   ├── \_\_init\_\_.py
 
 │   │   └── management
 
-│   │       ├── __init__.py
+│   │       ├── \_\_init\_\_.py
 
 │   │       ├── models.py
 
@@ -73,7 +73,7 @@ What a django project structure might look like when building a new django app. 
 
 │   │   ├── dev.py
 
-│   │   ├── __init__.py
+│   │   ├── \_\_init\_\_.py
 
 │   │   ├── prod.py
 
@@ -100,13 +100,13 @@ What a django project structure might look like when building a new django app. 
 ├── requirements.txt
 
 
-__requirements.txt__: top level file required for heroku to install dependencies
+\_\_requirements.txt\_\_: top level file required for heroku to install dependencies
    contains a single line to install from requirements/prod.txt
    
    `-r requirements/prod.txt`
    
-__djangolicious/apps/__
+\_\_djangolicious/apps/\_\_
     module for holding django applications
     
-__djangolicous/libs/__
+\_\_djangolicous/libs/\_\_
     module or holding django libraries (helpers)
